@@ -103,8 +103,6 @@ Churn label (Yes/No)
 
 📸 Dashboard Screenshots
 
-⚠ Replace the image links below with your GitHub raw URLs after uploading images to /Screenshots/
-
 1️⃣ Executive Summary Dashboard
 
 2️⃣ Customer Demographics Analysis
