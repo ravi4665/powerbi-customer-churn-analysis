@@ -1,209 +1,216 @@
 # powerbi-customer-churn-analysis
 A complete end-to-end Customer Churn Analysis project built using Power BI. Includes data cleaning, data modeling, DAX calculations, interactive dashboards, churn prediction insights, and business recommendations. The project identifies key churn drivers and helps organizations reduce churn using data-driven decisions.
 
-📊 Customer Churn Analysis – Power BI Project
+🌐 Customer Churn Analysis – End-to-End Power BI Project
 
-A complete end-to-end Power BI analytics project designed to understand why customers churn, identify high-risk customer segments, and provide actionable insights to reduce churn and increase revenue.
+This repository contains a complete, end-to-end Customer Churn Analysis developed using Power BI, leveraging the widely used Telco Customer Churn dataset.
+The project demonstrates advanced capabilities in data transformation, data modeling, DAX measure development, dashboard design, and business storytelling, aimed at identifying the key drivers behind customer churn and its financial impact.
 
-This repository contains the Power BI Dashboard, dataset, documentation, and analysis assets.
+This analysis empowers stakeholders with actionable insights to reduce churn, improve customer satisfaction, and optimize revenue.
 
-📁 Repository Structure
-├── Customer Churn Analysis.pbix     # Power BI Report
+📂 Repository Structure
 
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
+The repository contains all core assets required to explore, replicate, and understand the full project:
 
-├── Screenshots/                     # Dashboard images
+├── Customer Churn Analysis.pbix          # Complete Power BI report
 
-│      ├── Executive_Summary.png
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Original dataset
 
-│      ├── Customer_Demographics.png
+├── Dashboards/
 
-│      ├── Service_Subscription.png
+│   ├── Executive Summary/
 
-│      ├── Contract_Billing.png
+│   ├── Customer Demographics/
 
-│      ├── Churn_Prediction.png
+│   ├── Service Subscription/
+
+│   ├── Contract & Billing/
+
+│   ├── Churn Prediction & Key Drivers/
 
 └── README.md
 
-🧠 Project Objective
 
-Telecom companies face increasing customer churn, leading to revenue loss and rising acquisition costs.
-This project aims to:
+Each dashboard folder includes high-quality screenshots for quick reference without opening the PBIX file.
 
-🎯 Identify key drivers of customer churn
-📉 Measure revenue lost vs retained
-📌 Understand which customer segments churn the most
-📊 Help business teams reduce churn through data-backed decisions
-📝 Business Problem
+🎯 Project Purpose & Business Objective
 
-The telecom company is experiencing a 26.58% churn rate, causing a significant revenue loss of $2.86M.
-The management needs a clear understanding of:
+Telecom companies face significant financial impact due to customer churn.
+The objective of this project is to:
 
-Who is churning?
-
-Why are they churning?
-
-Which services drive the highest churn?
-
-What demographics are most at risk?
-
-Which customer groups should be prioritized for retention campaigns?
-
-This dashboard provides a data-driven foundation for churn reduction strategies.
-
-🧩 Key Features of the Analysis
-✔ Comprehensive multi-page Power BI report:
-
-Executive Summary Dashboard
-
-Customer Demographics Dashboard
-
-Service Subscription Dashboard
-
-Contract & Billing Insights Dashboard
-
-Churn Prediction & Key Drivers Dashboard
-
-✔ 30+ visuals including:
-
-Bar charts, column charts, donut charts, scatter plots, KPI cards, matrix visuals, heatmaps, distribution plots, drill-through, bookmarks, page navigation & more.
-
-✔ Interactive Analysis using:
-
-Gender slicers
-
-Senior citizen slicers
-
-Internet service type filters
-
-Contract type filters
-
-Payment method filters
-
-📂 Dataset Overview
-
-Source: Telco Customer Churn Dataset
-Rows: 7043 customers
-Columns: 21 attributes
-
-Includes:
-
-Demographics (gender, senior citizen, dependents)
-
-Tenure & subscription details
-
-Internet & phone service info
-
-Contract & billing details
-
-Monthly & total charges
-
-Churn label (Yes/No)
-
-📸 Dashboard Screenshots
-
-1️⃣ Executive Summary Dashboard
-
-2️⃣ Customer Demographics Analysis
-
-3️⃣ Service Subscription Analysis
-
-4️⃣ Contract & Billing Insights
-
-5️⃣ Churn Prediction & Key Drivers
-
-🔍 Major Insights Discovered
-🧍‍♂️ 1. Customer Demographics
-
-Customer base is 51% male, 49% female.
-
-Senior citizens churn at 41.68%, almost double non-senior customers.
-
-Long-tenure customers churn far less (49+ months → 9.51% churn).
-
-📡 2. Service Subscription Findings
-
-Fiber Optic users have the highest churn (41.89%).
-
-Customers with more add-on services have higher retention.
-
-Phone service alone does not influence churn much.
-
-💳 3. Contract & Billing
-
-Month-to-month contracts have 42.71% churn – highest risk.
-
-Auto-pay and credit card users show lower churn.
-
-Paperless billing customers churn more.
-
-🔥 4. Key Drivers of Churn
-
-Based on the heatmap:
-
-Driver	Impact
-Add-On Services	High
-Internet Service	High
-Number of Services	High
-Contract Type	Very High
-Senior Citizen	Very High
-💰 5. Revenue Impact
-
-Retained Revenue: $13.19M
-
-Lost Revenue: $2.86M
-
-Each 1% churn reduction can save ~$110K annually.
-
-🚀 How to Use This Project
-1. Clone the repository
-git clone https://github.com/<your-username>/customer-churn-analysis.git
-
-2. Open the Power BI file
-Customer Churn Analysis.pbix
-
-3. Load the dataset if required
-
-File:
-
-WA_Fn-UseC_-Telco-Customer-Churn.csv
-
-4. Explore dashboards using slicers and navigation buttons
-🛠 Tools Used
-Tool	Purpose
-Power BI Desktop	Data modeling & dashboard creation
-DAX	Measures, KPIs & calculations
-Power Query	Data cleaning & transformation
-Python (optional)	Exploratory data analysis
-GitHub	Version control & project hosting
-📌 Key DAX Measures Used
-
-✔ Total Customers
-✔ Churned Customers
-✔ Churn Rate %
-✔ Total Revenue
-✔ Lost Revenue
-✔ Retained Revenue
-✔ Tenure Buckets
-✔ Add-on Service Counts
-✔ Churn Rate by Category
-✔ Customer Segment KPIs
-
-(Add more if needed)
-
-🏁 Conclusion
-
-This project delivers a holistic churn analysis system that helps the telecom company:
-
-Understand churn drivers
+Understand factors influencing churn behavior
 
 Identify high-risk customer segments
 
-Predict churn more accurately
+Estimate revenue loss and retention opportunities
 
-Recover potential revenue
+Provide data-driven strategies to reduce churn
 
-Improve retention strategies
+Enable decision-makers with clear and interactive insights
 
-It is a production-ready dashboard suitable for business presentations, stakeholder reviews & data analytics portfolios.
+This Power BI solution replicates a real-world analytics environment, consolidating multiple customer dimensions—demographics, services, billing, and behavior—to produce meaningful and actionable visual storytelling.
+
+📊 Dashboard Overview
+
+The report is structured into five comprehensive dashboards, each addressing a unique analytical area.
+
+1️⃣ Executive Summary Dashboard
+
+A high-level overview designed for business leaders.
+Key metrics include:
+
+Total customers, total revenue, average monthly charges
+
+Total churned customers and churn rate
+
+Lost vs retained revenue
+
+Gender distribution
+
+Customers & churn by tenure bucket
+
+Essential filters for demographic and service exploration
+
+This dashboard summarizes the entire analysis in one cohesive view.
+
+2️⃣ Customer Demographics Analysis
+
+Provides an in-depth look at who the customers are.
+
+Covered insights:
+
+Male vs Female distribution
+
+Churn among senior vs non-senior citizens
+
+Tenure segmentation across the customer base
+
+Churn rate trends by tenure groups
+
+Relationship between monthly charges and tenure
+
+Monthly charges vs tenure segmented by gender
+
+Key customer metrics with dynamic filters
+
+This dashboard helps understand whether specific demographic groups are more likely to churn.
+
+3️⃣ Service Subscription Analysis
+
+Focuses on customer behavior based on subscribed services.
+
+This includes:
+
+Phone service subscription (Yes/No)
+
+Churn rate across internet types (DSL, Fiber optic, No internet)
+
+Churned customers by add-on services
+
+Impact of number of subscribed services on churn
+
+Service combinations with highest churn probability
+
+Fiber vs DSL vs No internet usage comparison
+
+Filters for gender, senior citizen, internet type, and contract
+
+These insights help identify problematic service categories and upselling opportunities.
+
+4️⃣ Contract & Billing Insights
+
+Evaluates churn patterns from a financial and contract perspective.
+
+Key insights include:
+
+Churn rate by contract type (Month-to-month, One-year, Two-year)
+
+Payment method distribution & churn
+
+Average monthly and total charges per billing group
+
+Impact of paperless billing on churn
+
+Tenure distribution for each contract type
+
+Dynamic KPIs for billing performance
+
+This dashboard highlights the influence of contract structure and payment behavior on churn.
+
+5️⃣ Churn Prediction & Key Drivers
+
+Powered by feature analysis and AI-like segmentation logic.
+
+Contains:
+
+Overall churn rate
+
+Revenue impact (retained vs lost customers)
+
+Churn by contract type, seniority, gender, internet type
+
+Churn risk segmentation (Low, Medium, High)
+
+Top churn drivers with conditional formatting
+
+Revenue impact visualizations
+
+This helps stakeholders understand who is at risk, why, and how much revenue is at stake.
+
+🧠 Key Business Insights
+
+A few major findings from the analysis:
+
+Month-to-month contracts drive the highest churn (42%+).
+
+Fiber optic users churn more aggressively than DSL or non-internet customers.
+
+Senior citizens show significantly higher churn rate.
+
+Customers with multiple add-on services are less likely to churn, indicating value-driven retention.
+
+Electronic check payment method customers are at the highest risk of churn.
+
+Churn is highest among low-tenure customers, suggesting weak early retention strategies.
+
+The business is losing approximately $2.86M in revenue due to churn, while retaining $13.2M.
+
+🛠 Technical Implementation
+Tools Used
+
+Power BI Desktop
+
+Power Query for ETL
+
+DAX for calculated columns and measures
+
+Star Schema modeling
+
+Modeling Overview
+
+Fact table: Customer subscription & churn details
+
+Dimension tables: Tenure buckets, add-on services, contract types, etc.
+
+Measures: Churn rate %, revenue calculations, segmentation metrics
+
+🚀 How to Explore the Project
+
+Download the .pbix file from the repository.
+
+Open in Power BI Desktop.
+
+Use the slicers provided on each dashboard to deeply explore specific customer segments.
+
+Switch between dashboards using navigation buttons.
+
+🤝 Contributing & Feedback
+
+Contributions are welcome!
+Feel free to submit issues, feature suggestions, or improvements to enhance the analytical depth.
+
+If you’re using this for learning, feel free to fork and modify the report to build your own version.
+
+📧 Contact
+
+For collaboration, portfolio review, or Power BI guidance, you can reach out anytime
