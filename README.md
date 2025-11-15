@@ -9,13 +9,21 @@ This repository contains the Power BI Dashboard, dataset, documentation, and ana
 
 📁 Repository Structure
 ├── Customer Churn Analysis.pbix     # Power BI Report
+
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
+
 ├── Screenshots/                     # Dashboard images
+
 │      ├── Executive_Summary.png
+
 │      ├── Customer_Demographics.png
+
 │      ├── Service_Subscription.png
+
 │      ├── Contract_Billing.png
+
 │      ├── Churn_Prediction.png
+
 └── README.md
 
 🧠 Project Objective
